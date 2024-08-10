@@ -1,0 +1,97 @@
+/* Basic Reset */
+body, h2, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.form-fields {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field input, .form-field select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.hobby-dropdown {
+  height: auto;
+  min-height: 40px;
+}
+
+.radio-group, .form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group label, .form-actions button {
+  margin-right: 10px;
+}
+
+.submit-btn, .remove-btn, .add-btn, .delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+}
+
+.remove-btn {
+  background-color: #f44336;
+}
+
+.add-btn {
+  background-color: #2196f3;
+}
+
+.delete-btn {
+  background-color: #ff9800;
+}
+
+.submitted-data {
+  margin-top: 30px;
+}
+
+.submitted-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
